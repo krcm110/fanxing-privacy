@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>繁星短剧隐私政策</title>
+  <style>
+    :root {
+      font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      color: #20252a;
+      background: #f6f7f4;
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main {
+      width: min(100% - 2rem, 50rem);
+      margin: clamp(1rem, 5vw, 3.5rem) auto;
+      padding: clamp(1.25rem, 5vw, 3.5rem);
+      border: 1px solid #dce2d9;
+      border-radius: 1rem;
+      background: #fff;
+    }
+    header { padding-bottom: 1.4rem; border-bottom: 1px solid #e0e5dc; }
+    h1, h2, h3 { color: #172b22; line-height: 1.45; }
+    h1 { margin: 0 0 .45rem; font-size: clamp(1.65rem, 5vw, 2.5rem); }
+    h2 { margin: 0 0 .65rem; font-size: 1.3rem; }
+    h3 { margin: 1.2rem 0 .25rem; font-size: 1.04rem; }
+    p { margin: .55rem 0; }
+    a { color: #175945; text-underline-offset: .16em; }
+    a:focus-visible { outline: 2px solid #175945; outline-offset: 3px; }
+    .operator { color: #46554b; }
+    .draft {
+      margin-top: 1rem;
+      padding: .85rem 1rem;
+      border-left: 3px solid #9c7440;
+      background: #faf5eb;
+      color: #4c3c24;
+    }
+    details { margin-top: .6rem; }
+    summary { cursor: pointer; font-weight: 600; }
+    details ul { padding-inline-start: 1.3rem; }
+    nav { margin-top: 1.25rem; }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .25rem 1.1rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    section { margin-top: 1.8rem; scroll-margin-top: 1rem; }
+    section ul { padding-inline-start: 1.3rem; }
+    li + li { margin-top: .35rem; }
+    nav li + li { margin-top: 0; }
+
+    @media print {
+      :root { background: #fff; }
+      main { width: auto; margin: 0; padding: 0; border: 0; }
+      nav { display: none; }
+      h2, h3 { break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>繁星短剧隐私政策</h1>
+      <p class="operator">隆沩（海南）文化传媒有限公司</p>
+      <aside class="draft" aria-label="草稿状态">
+        <strong>待发布草稿</strong>
+        <details>
+          <summary>发布前待核对</summary>
+          <ul>
+            <li>按最终上架包核对权限的实际使用场景，以及第三方 SDK 的处理字段和触发时机。</li>
+            <li>已检查的预发布包包含穿山甲广告、穿山甲 GroMore、腾讯优量汇、快手联盟、百度百青藤和酷盈广告相关适配器。以最终上架包为准逐项填写第三方清单。</li>
+            <li>确认生产环境的短信及诊断服务、个人信息的存储地点和留存期限，以及正式生效日期。</li>
+          </ul>
+        </details>
+      </aside>
+      <nav aria-label="政策目录">
+        <ul>
+          <li><a href="#collection">个人信息的处理</a></li>
+          <li><a href="#device">本地存储和权限</a></li>
+          <li><a href="#third-parties">第三方服务</a></li>
+          <li><a href="#retention">保存和保护</a></li>
+          <li><a href="#rights">您的权利</a></li>
+          <li><a href="#children">未成年人</a></li>
+          <li><a href="#updates">政策更新</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section aria-label="适用范围">
+      <p>隆沩（海南）文化传媒有限公司（以下简称“我们”）运营繁星短剧。本政策适用于繁星短剧 Android 客户端及我们通过客户端向您提供的短剧浏览、播放、账号和相关服务。您可以通过 <a href="mailto:ccqin9@gmail.com">ccqin9@gmail.com</a> 联系我们。</p>
+    </section>
+
+    <section id="collection">
+      <h2>一、我们如何处理个人信息</h2>
+      <h3>浏览、搜索和播放短剧</h3>
+      <p>您可以在未登录时浏览短剧、搜索和使用游客可用的播放功能。您主动搜索时，客户端会将搜索词发送给服务端以返回结果。您发起播放时，客户端会提交所选剧集的信息，以获取播放所需的地址或授权，并可在本机缓存部分视频内容以支持连续播放。</p>
+
+      <h3>注册、登录和账号安全</h3>
+      <p>您申请短信验证码时，我们处理您填写的手机号码，以发送验证码。注册、登录或重置密码时，我们会根据您选择的方式处理手机号码、短信验证码及验证请求标识，或您输入的密码。若您在注册时填写邀请码，我们会处理该邀请码以完成验证。我们记录您在注册流程中同意的协议版本。</p>
+      <p>处理登录或验证码请求时，我们使用请求来源的 IP 地址限制异常请求。客户端请求服务时会提供应用包名、应用版本、构建号、平台和系统版本，以标识客户端版本和运行环境。</p>
+
+      <h3>收藏和观看进度</h3>
+      <p>登录后，您添加或取消收藏时，我们会关联您的账号和相应剧目，以保存和更新收藏列表。为支持继续播放，客户端会将剧集标识及播放进度随登录会话发送给服务端。</p>
+
+      <h3>激励视频</h3>
+      <p>当您主动选择观看激励视频广告时，客户端将请求第三方广告服务，并根据广告播放结果处理相应的奖励。广告 SDK 涉及的信息和用途见下文“第三方服务”。</p>
+    </section>
+
+    <section id="device">
+      <h2>二、本地存储和系统权限</h2>
+      <p>客户端在设备上保存主题偏好和登录会话信息，包括用于维持登录状态的账号标识和会话凭据。退出登录时，客户端会清除本机的会话凭据。</p>
+      <p>您可以选择预设头像，或通过系统照片选择界面选取一张图片作为头像。客户端仅处理您选中的图片并在设备上保存头像缩略图。您设置的昵称也保存在本机。这些设置用于在客户端显示您的个人资料。</p>
+      <p>客户端需要联网以提供短剧浏览、播放、账号和广告服务。您可以通过设备系统设置查看和管理应用权限。关闭某项权限后，依赖该权限的相应功能可能受影响。</p>
+    </section>
+
+    <section id="third-parties">
+      <h2>三、第三方服务及信息披露</h2>
+      <h3>Taku 广告 SDK</h3>
+      <p>提供方为广州塔酷信息科技有限公司。客户端在 Android 激励视频场景中使用该 SDK，以请求和展示广告、衡量广告效果、完成归因和识别异常流量。SDK 可从设备和广告交互中处理设备及系统信息、广告标识符、网络及 IP 信息、应用及 SDK 信息、广告展示与点击等互动数据、性能及故障数据。具体处理项目与设备、系统权限和 SDK 配置有关。</p>
+      <p><a href="https://help.takuad.com/docs/1Mn1B7" rel="noreferrer">Taku 隐私政策</a></p>
+
+      <h3>短信验证码服务</h3>
+      <p>为向您发送验证码，我们通过短信服务商处理您提供的手机号码及待发送的验证码，供服务商向该号码投递验证短信。</p>
+
+      <h3>其他依法提供的情形</h3>
+      <p>当我们为提供服务委托第三方处理个人信息时，将明确处理目的和范围，并要求受托方按约定处理和保护信息。如涉及向其他个人信息处理者提供个人信息、转移或公开个人信息，我们将依法履行相应的告知义务，并在法律要求时取得您的单独同意。法律法规或有权机关依法要求提供信息的，我们按其要求处理。</p>
+    </section>
+
+    <section id="retention">
+      <h2>四、个人信息的保存和保护</h2>
+      <p>我们根据服务所需确定保存期限。账号信息用于维持账号服务，收藏和观看进度用于提供对应功能。验证码和验证请求信息仅在完成验证及保障账号安全所需的期限内保留。法律法规对保存期限另有规定的，按其规定执行。</p>
+      <p>在处理目的实现或保存期限届满后，我们将依法删除个人信息或进行匿名化处理。我们将采取与处理风险相适应的管理和技术措施，限制个人信息访问并保护信息安全。</p>
+    </section>
+
+    <section id="rights">
+      <h2>五、您的权利和联系方式</h2>
+      <p>您可以发送邮件至 <a href="mailto:ccqin9@gmail.com">ccqin9@gmail.com</a>，提出查阅、复制、更正、删除个人信息、撤回同意或注销账号的申请，也可以通过该邮箱咨询或投诉。请在邮件中说明您要申请的事项，并留下便于我们联系您的方式。请勿在邮件中发送密码或短信验证码。</p>
+      <p>为保护您的账号安全，我们可能需要核实您的身份。核实后，我们将依法处理并回复。账号注销完成后，我们将停止为该账号提供服务，并依法处理相关个人信息。您也可以在设备系统设置中管理已授予的权限。</p>
+    </section>
+
+    <section id="children">
+      <h2>六、未成年人的个人信息</h2>
+      <p>未成年人应在监护人指导下阅读本政策和使用服务。依法需要基于同意处理未满十四周岁儿童个人信息时，我们将取得其父母或其他监护人的同意，并依法提供相应的保护。监护人可以通过 <a href="mailto:ccqin9@gmail.com">ccqin9@gmail.com</a> 联系我们，申请查阅、更正或删除儿童的个人信息。</p>
+    </section>
+
+    <section id="updates">
+      <h2>七、本政策如何更新</h2>
+      <p>我们会通过应用内的隐私政策入口提供最新版本。个人信息的处理目的、方式或种类等发生变化时，我们将依法告知您，并在法律要求时重新取得您的同意。</p>
+    </section>
+  </main>
+</body>
+</html>
